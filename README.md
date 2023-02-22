@@ -93,6 +93,7 @@ To run this project:
  1. open the whole project in VS code 
  2. right click on the HTML file
  3. select the "open with live server" option.
+ 4. then you can see the on the browser
 
 
 ## 👥 Authors <a name="authors"></a>
