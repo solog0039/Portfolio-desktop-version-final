@@ -395,6 +395,7 @@ ul.skills {
   text-decoration: none;
   margin-top: 18px;
   margin-bottom: 5vh;
+  margin-left: 6.5vw;
 }
 
 .see-project-1 :hover {
@@ -828,10 +829,9 @@ ul.Sk-list {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
     display: flex;
-    padding-left: 30px;
     align-items: center;
     text-align: center;
     color: #fff;
@@ -930,10 +930,10 @@ ul.Sk-list {
   .desk-h21-line {
     display: flex;
     align-items: center;
-    margin-left: 75px;
+    margin-left: 80px;
     margin-right: 30px;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 44px;
+    padding-bottom: 100px;
   }
 
   .desk-h21 {
@@ -951,13 +951,13 @@ ul.Sk-list {
     display: flex;
     background-color: #e5e5e5;
     height: 1px;
-    width: 38vw;
-    margin-left: 10px;
+    width: 40vw;
+    margin-left: 24px;
   }
 
   .img-multi {
     display: flex;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-right: 60px;
     width: 87vw;
     height: 75vh;
@@ -1004,10 +1004,6 @@ ul.Sk-list {
     border: 1px solid #8993a4;
   }
 
-  .desk-skill :hover {
-    border: solid blue;
-  }
-
   .button {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1030,7 +1026,7 @@ ul.Sk-list {
     justify-content: center;
     margin-top: 10px;
     text-align: center;
-    width: 100px;
+    width: 124px;
     height: 48px;
     text-decoration: none;
     background: #f55800;
@@ -1039,7 +1035,6 @@ ul.Sk-list {
   .desk-see-project-1 {
     margin-top: 5px;
     height: 40px;
-    width: 100px;
     text-decoration: none;
     background: #f55800;
     font-family: 'Inter', sans-serif;
@@ -1048,6 +1043,7 @@ ul.Sk-list {
     font-size: 17px;
     line-height: 24px;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
@@ -1061,7 +1057,7 @@ ul.Sk-list {
 
   .card123 {
     display: flex;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-right: 60px;
     width: 87vw;
     height: 60vh;
@@ -1164,7 +1160,7 @@ ul.Sk-list {
 
   .card456 {
     display: flex;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-right: 60px;
     width: 87vw;
     height: 65vh;
@@ -1243,11 +1239,12 @@ ul.Sk-list {
 
   ul.lists {
     display: flex;
+    gap: 10vw;
     flex-direction: row;
     flex: 1;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 76vw;
+    width: 85vw;
     margin: 70px;
     border-top: 1px solid white;
   }
@@ -1255,6 +1252,12 @@ ul.Sk-list {
   .Frame,
   .Sk {
     padding-top: 34px;
+  }
+
+  .Sk > ul,
+  .Frame > ul,
+  .Lan > ul {
+    align-items: flex-start;
   }
 
   /* Contact form  */
@@ -1278,7 +1281,7 @@ ul.Sk-list {
     font-size: 40px;
     line-height: 52px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     color: #262626;
   }
 
