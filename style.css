@@ -225,6 +225,20 @@ table {
   flex-direction: column;
   gap: 12px;
   padding: 0 24px;
+  animation: maintext 1.81s ease-in-out ;
+}
+
+.headline:hover{
+  transform: scale(1.02);
+}
+
+@keyframes maintext{
+  0%{
+    transform: translateX(-100px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
 }
 
 .hey {
@@ -852,6 +866,7 @@ ul.Sk-list {
     text-align: center;
     color: #fff;
     text-decoration: none;
+    animation: maintext 1.8s ease-in-out ;
   }
 
   .first-page {
@@ -971,8 +986,20 @@ ul.Sk-list {
   .desk-main-image {
     width: 50vw;
     height: 60vh;
+    animation: imageRotate 1.5s ease;
   }
 
+  @keyframes imageRotate{
+    0%{            
+       transform: rotate(30deg);
+    }
+    
+    100%{
+      transform: rotate(90deg);
+    }
+    }       
+
+  
   .desk-multi-story {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
