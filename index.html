@@ -14,8 +14,18 @@
   <header class="toolbar">
     <a href="index.html" class="name button"> SOLOMON</a>
     <nav>
-      <img class="huberger" src="/assets/Union.png" alt="Dropdown menu">
+      <img  class="huberger" onclick="openNav()" src="/assets/Union.png" alt="Dropdown menu">
     </nav>
+    <div id="myNav" class="m-menu">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="m-menu-content">
+        <a href="#section-01" onclick="closeNav()">Portfolio</a>
+        <a href="#section-033" onclick="closeNav()">About</a>
+        <a href="#section-044" onclick="closeNav()">Contact</a>
+      </div>
+    </div>
+    <!-- <span class="huberger" onclick="openNav()">&#9776;</span> -->
+    
   </header>
 
   <header class="desktop-header">
@@ -29,7 +39,7 @@
       </nav>
     </nav>
   </header>
-  <section class="first-page">
+  <section class="first-page" id="section-01">
     <div class="headline">
       <h1 class="hey">Hey There I'm Solomon</h1>
       <h2 class="softwaredev"> I am software developer</h2>
@@ -72,7 +82,7 @@
     </ul>
     <img src="./assets/images/Gourp1-desktop.png" alt="Image in the first page">
   </section>
-  <section class="cards">
+  <section class="cards" id="section-02">
     <div class="h21-line">
       <h1 class="h21">My Recent Works</h1>
       <hr class="line">
@@ -257,7 +267,7 @@
     </div>
   </section>
 
-  <section class="section-3">
+  <section class="section-3" id="section-033">
     <div class="about-me">
       <h1 class="h31">About me</h1>
       <p class="p31-desk">Hello I’m a software developer! I can help you build a product ,feature or
@@ -307,7 +317,7 @@
       </li>
     </ul>
   </section>
-  <form class="upper-form" action="https://formspree.io/f/xoqrrprd" method="post">
+  <form class="upper-form" id="section-044" action="https://formspree.io/f/xoqrrprd" method="post">
     <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch. </p>
     <input type="text" maxlength="30" required placeholder="Full Name" class="full-name-m" name="usrname">
     <input type="email" required placeholder="Email" class="email-m" name="usremail">
@@ -343,5 +353,5 @@
     </ul>
   </footer>
 </body>
-
+<script src="index.js"></script>
 </html>

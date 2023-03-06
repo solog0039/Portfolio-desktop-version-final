@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Portfolio: desktop version</b></h3>
+  <h3><b>Portfolio: mobile / desktop</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -103,6 +103,13 @@ To run this project:
 - GitHub: [@Solomon](https://github.com/solog0039)
 - Twitter: [@Solomon](https://twitter.com/Solomon57320119)
 - LinkedIn: [Solomon](www.linkedin.com/in/solomon-kidanu-62a994232)
+
+
+Collaborator:
+
+👤 Santiago Muñoz
+
+    GitHub: @smunoz1988
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

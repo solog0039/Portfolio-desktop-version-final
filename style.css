@@ -183,6 +183,54 @@ table {
   min-height: 5vh;
 }
 
+/* menu strt */
+.m-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #3c3a39;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.m-menu-content {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  padding-left: 40px;
+}
+
+.m-menu-content a {
+  border-bottom: 1px solid #6f6c6b;
+}
+
+.m-menu a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff5e1;
+  display: block;
+  transition: 0.3s;
+}
+
+.m-menu a:hover,
+.m-menu a:focus {
+  color: #f1f1f1;
+}
+
+.m-menu .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* menu end */
 .humberger {
   display: flex;
   flex: 1;
